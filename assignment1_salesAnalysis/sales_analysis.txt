@@ -1,0 +1,39 @@
+# Sales Analysis
+
+## 1. Understanding the Data
+
+The dataset contains 149,116 transaction records and 11 original fields. It covers January 1, 2023 through June 30, 2023. The data includes transaction date and time, transaction quantity, store location, product information, and unit price. The dataset contains 0 missing values and no duplicate rows. There are three store locations and nine product categories.
+
+## 2. Sales Over Time
+
+Transaction volume increased substantially during the first half of 2023. After a slight decline from January (17,314 transactions) to February (16,359), transactions increased continuously through June: 21,229 in March, 25,335 in April, 33,527 in May, and 35,352 in June. This represents strong overall growth during the period.
+
+## 3. Sales by Time of Day and Day of Week
+
+Weekly transaction volume is relatively stable. Friday is the busiest day with 21,701 transactions, while Saturday is the slowest with 20,510, a difference of only about 5.8%. By hour, transaction activity rises quickly after opening at 6:00, reaches its highest level around 8:00–10:00, and declines after 20:00. This indicates that the morning is the most important transaction period.
+
+## 4. Sales by Product
+
+Coffee and Tea are the two dominant categories, with 58,416 and 45,449 transactions respectively. Together they represent nearly 70% of all transactions. Among individual products, Brewed Chai tea leads with 17,183 transactions, followed by Gourmet brewed coffee with 16,912 and Barista Espresso with 16,403. Scone is the leading Bakery product with 10,173 transactions.
+
+## 5. Sales by Store Location
+
+The three store locations have very similar transaction volumes. Hell's Kitchen accounts for 34.0%, Astoria 33.9%, and Lower Manhattan 32.0%. No location represents a dominant share of total transactions, indicating a relatively balanced distribution across the store network.
+
+## 6. Price and Transaction Quantity
+
+Most products are priced between $0.80 and $5.00, with a median price of $3.00. Transaction quantities are highly concentrated in small orders: 87,159 transactions contain one item and 58,642 contain two items. Together, one- and two-item transactions represent more than 97% of all purchases. The average basket size is 1.44 items.
+
+## 7. Main Findings and Recommendations
+
+1. **Sustain the growth trend.** Transaction volume increased substantially from February through June. The business should continue using seasonal products and loyalty programs to encourage repeat purchases and maintain customer engagement.
+
+2. **Optimize the morning rush.** The strongest transaction activity occurs around 8:00–10:00. Additional staffing and preparation of high-volume products during this period could improve service efficiency. Weekend promotions could also be used to address the slightly lower Saturday volume.
+
+3. **Increase items per transaction.** More than 97% of purchases contain only one or two items. Drink-and-pastry combinations, add-on discounts, or similar promotions could encourage customers to purchase additional items and increase average transaction value.
+
+## 8. Questions
+
+- Why did transaction volume decline slightly from January to February before increasing strongly afterward?
+- What factors explain the strong morning demand?
+- Which products are most frequently purchased together?
